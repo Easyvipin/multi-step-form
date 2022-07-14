@@ -4,6 +4,13 @@ import { ERROR_MESSAGES } from "./constants";
 
 const { NAMING_ERROR, URL_ERROR } = ERROR_MESSAGES;
 
+/**
+ *
+ * @param {the type of value } type
+ * @param {the value to check } stringToCheck
+ * @returns {errorMessage , null}
+ */
+
 export const checkInputValidation = (type, stringToCheck) => {
   switch (type) {
     case "name":
