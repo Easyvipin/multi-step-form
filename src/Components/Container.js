@@ -1,11 +1,11 @@
 import { useContext } from "react";
 import styled from "styled-components";
-import Headers from "@Components/Headers";
 import { FormContext } from "@app/Context/FormContext";
 import Workspace from "@Components/Workspace";
 import Planning from "./Planning";
 import Launch from "./Launch";
 import Progress from "./Progress";
+import Welcome from "./Welcome";
 
 const StyledContainer = styled.div`
   display: flex;
@@ -26,7 +26,7 @@ function Container() {
   const renderWithProgressId = (id) => {
     switch (id) {
       case 1:
-        return <Headers />;
+        return <Welcome />;
       case 2:
         return <Workspace />;
       case 3:

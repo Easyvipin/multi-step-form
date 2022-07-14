@@ -6,7 +6,7 @@ import TextFormContainer from "./TextFormContainer";
 import Headline from "./Headline";
 import { WELCOME_CONSTANTS } from "@app/utils/constants";
 
-const Headers = () => {
+const Welcome = () => {
   const {
     HEADLINE,
     SUB_HEADLINE,
@@ -63,4 +63,4 @@ const Headers = () => {
   );
 };
 
-export default Headers;
+export default Welcome;
