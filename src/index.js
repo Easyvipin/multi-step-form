@@ -1,14 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import "./styles.css";
+import reportWebVitals from "./reportWebVitals";
+import { FormContextProvider } from "./Context/FormContext";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <FormContextProvider>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </FormContextProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function
