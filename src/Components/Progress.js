@@ -90,19 +90,7 @@ const Progress = ({ start, end }) => {
       }
     });
   };
-  return (
-    <ProgressContainer>
-      {renderProgressBadge()}
-      {/*  <StyledLine active={true}></StyledLine>
-      <StyledButton>2</StyledButton>
-      <StyledLine type={"between"} active={true}></StyledLine>
-      <StyledLine type={"between"}></StyledLine>
-      <StyledButton>3</StyledButton>
-      <StyledLine type={"between"}></StyledLine>
-      <StyledLine type={"between"}></StyledLine>
-  <StyledButton>4</StyledButton> */}
-    </ProgressContainer>
-  );
+  return <ProgressContainer>{renderProgressBadge()}</ProgressContainer>;
 };
 
 export default Progress;
