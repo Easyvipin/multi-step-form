@@ -22,7 +22,6 @@ const Welcome = () => {
   let displayNameRef = useRef();
 
   const validFields = () => {
-    console.log("called");
     let fullNameInput = fullNameRef.current.value;
     let displayNameInput = displayNameRef.current.value;
     if (fullNameInput.length > 0 && displayNameInput.length > 0) {
