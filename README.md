@@ -8,3 +8,6 @@
 ###### Demo
 
 ![eden](https://user-images.githubusercontent.com/55550953/179186457-63ca77da-8949-4647-a0ea-54e30bcd8b87.gif)
+
+
+### To give the mock your own looks you can change color , fonts , attributes  in [themes](src/themes)
